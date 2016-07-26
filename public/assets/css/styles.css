@@ -1,0 +1,2610 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+body{
+	background-image: url('../image/hrms-bg.jpg');
+	font-family: 'Roboto', sans-serif !important;
+	  background-repeat: no-repeat;
+	  background-color: #F6F7F2;
+	  background-attachment: fixed;
+}
+
+.breadcrumb{
+	  float: right;
+    background-color: transparent;
+    padding-right: 0;
+    color:#000;
+}
+
+.breadcrumb>li+li:before,
+#block-block-3 .breadcrumb>li+li:before{
+	color:#000;
+}
+
+.breadcrumb li a,
+.breadcrumb li a.hover,
+#block-block-3 .breadcrumb li a,
+#block-block-3 .breadcrumb li a.hover{
+	 color:#000;
+}
+
+.breadcrumb>.active,
+#block-block-3 .breadcrumb>.active{
+	color:#428bca;
+}
+
+.col-sm-9 .breadcrumb{
+	display:none;
+}
+
+ul.menu li.dhtml-menu ul.dropdown-menu{
+	width:200px;
+}
+.view-content{
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+} 
+aside .region.region-sidebar-first.well {
+	padding: 0;
+	background: rgba(255,255,255,0.5);
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.hrms-leftsidebar-links ul li a {
+    padding: 16px 25px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 16px;
+    color: #656565;
+}
+.hrms-leftsidebar-links ul li a:hover {
+	background-color: #ffffff;
+}
+.hrms-leftsidebar-links ul li a.active {
+	background-color: #e96060;
+	color: #ffffff;
+}
+.hrms-leftsidebar-links ul li a.active:after {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    content: ' ';
+}
+
+#page-header .region-header ul.menu.nav {
+  margin-bottom: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#page-header .region-header ul.menu.nav li.leaf {
+  display: inline-block;
+  border-right: 1px solid #ffffff;
+  float: left;
+}
+
+#page-header .region-header ul.menu.nav li.leaf ul li.leaf{
+  border-right: none;
+}
+
+#page-header .region-header ul.menu.nav li.leaf.active{
+		background-color: #1ba275;
+	color:#fff;
+}
+
+
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf.active,
+#page-header .region-header ul.menu.nav li.leaf.active-trail{
+		background-color: #1ba275;
+	color:#fff;
+}
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf a:hover,
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf a:focus {
+	background-color: #b4b5b8;
+	color:#fff;
+}
+
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf,
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf a {
+	color:#000;
+}
+
+#page-header .region-header ul.menu.nav li.leaf.active a,
+#page-header .region-header ul.menu.nav li.leaf.active-trail a {
+	color: #ffffff;
+	height: auto;
+	background-position: 25px;
+}
+
+#page-header .region-header ul.menu.nav li.leaf.active:after {
+	  position: absolute;
+    top: 0;
+    left: 45%;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #ffffff;
+    content: ' ';
+}
+
+#page-header .region-header ul.menu.nav li.leaf a {
+  padding: 14px 25px 14px 50px;
+  color: #000000;
+  height: auto;
+	background-position: 25px;
+}
+
+#page-header .region-header ul.menu.nav li.leaf:hover {
+  background-color: #25AAE2;
+}
+
+#page-header .region-header ul.menu.nav li.second-parent ul li.leaf,
+#page-header .region-header ul.menu.nav li.second-parent ul li.leaf:hover{
+		min-width:228px;
+}
+
+#page-header .region-header ul.menu.nav li.third-parent ul li.leaf,
+#page-header .region-header ul.menu.nav li.third-parent ul li.leaf:hover{
+		min-width:281px;
+}
+#page-header .region-header ul.menu .caret {
+	  border-top-color: #000; 
+    border-bottom-color :#000;
+}
+
+#page-header .region-header ul.menu.nav li a:hover .caret,
+#page-header .region-header ul.menu.nav li a:active .caret,
+#page-header .region-header ul.menu.nav li a.active-trail .caret,
+#page-header .region-header ul.menu.nav li a:focus .caret {
+	  border-top-color: #fff; 
+    border-bottom-color :#fff;
+}
+
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:hover, 
+.nav .open>a, 
+.nav .open>a:hover
+{
+	background-color: #0284b9;
+	color: #fff !important;
+}
+
+.dropdown-menu>.active>a:focus,
+.nav .open>a:focus{
+	background-color: #b4b5b8;
+	color: #fff !important;
+}
+
+header#navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+header#navbar, header#navbar .navbar-collapse.collapse {
+	padding-right: 0; 
+}
+section#block-system-main-menu,
+section.notification-count {
+	float: right;
+}
+
+#block-views-email-notification-block{
+  border-left: 1px solid #dfdfdf; 
+  padding: 5px 0px;
+}
+
+#block-views-email-notification-block .view-email-notification{
+	background-image: url('../image/download.png');
+	width: 26px;
+  height: 26px;
+  margin: 15px 25px;
+}
+
+#block-views-email-notification-block .view-email-notification .views-field-title span,
+#block-views-email-notification-block .view-email-notification .view-empty p{
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: red;
+    margin-top: -15px;
+    margin-right: -15px;
+    float: right;
+}
+
+#block-views-email-notification-block .view-email-notification .view-empty{
+	  padding: 0px;
+}
+
+#block-views-email-notification-block .view-email-notification .views-field-title span a,
+#block-views-email-notification-block .view-email-notification .views-field-title span a:hover{
+	 color: #fff;
+	 text-decoration: none;
+}
+
+section#block-views-user-profile-info-block {
+  float: right;
+  background-color: #fff;
+  padding: 10px 70px 10px 15px;
+  border-left: 1px solid #dfdfdf !important;
+  cursor: pointer;
+  position: relative;
+  border-right: 1px solid #dfdfdf;
+}
+
+section#block-views-user-profile-info-block-1{
+  background-color: #ededed;
+  padding: 10px 70px 10px 15px;
+  border-left: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+
+section#block-views-user-profile-info-block .views-field-field-profile-image,
+section#block-views-user-profile-info-block-1 .views-field-field-profile-image {
+  float: left;
+  margin-right: 12px;
+}
+section#block-views-user-profile-info-block .views-field-field-profile-image img,
+section#block-views-user-profile-info-block-1 .views-field-field-profile-image img,
+.view-birthday-list img,
+.view-today-leave img,
+.view-employee-list-for-employee .views-field-field-profile-image img,
+section.col-sm-12 .view-today-leave.view-display-id-page_1 .views-field-field-profile-image img,
+.view-employee-list .views-field-field-profile-image img{
+  height: 48px;
+  width: 48px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.view-dashboard-leave-request .views-field-field-profile-image img{
+	  height: 88px;
+  width: 88px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+section#block-views-user-profile-info-block .views-field-nothing-1 {
+  float: right;
+  padding-top: 6px;
+}
+.view-birthday-list .views-field-nothing h3,
+.view-today-leave .views-field-nothing h3 {
+	font-size:14px;
+	margin:0;
+}
+.view-birthday-list .views-field-nothing img,
+.view-today-leave .views-field-nothing img{
+	margin-right:25px;
+	margin-left:15px;
+}
+
+.view-birthday-list .views-field-nothing,
+.view-today-leave .views-field-nothing{
+	margin:10px;
+}
+
+.view-birthday-list .views-field-nothing{
+	padding:4px 0px;
+}
+.view-birthday-list .views-view-grid tr,
+.view-today-leave .views-view-grid tr{
+	border-bottom:1px solid #ddd;
+}
+
+.view-birthday-list .views-view-grid tr table tr,
+.view-birthday-list .views-view-grid tr.row-last,
+.view-today-leave .views-view-grid tr table tr,
+.view-today-leave .views-view-grid tr.row-last{
+	border-bottom:none;
+}
+.view-birthday-list table.views-view-grid,
+.view-today-leave table.views-view-grid{
+	width:100%;
+}
+section#block-views-user-profile-info-block-1 .views-field-nothing-1 {
+  padding-top: 6px;
+}
+section#block-views-user-profile-info-block .views-field-field-designation div,
+section#block-views-user-profile-info-block-1 .views-field-field-designation div {
+  color: #0f65ba;
+  font-style: italic;
+}
+section#block-views-user-profile-info-block .view.view-user-profile-info:after {
+  position: absolute;
+  top: 49%;
+  right: 8%;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #aaaaaa;
+  content: ' ';
+}
+section#block-system-main-menu ul.menu.nav li a.dropdown-toggle {
+  border: 1px solid #428bca;
+  margin-top: 16px;
+  margin-right: 10px;
+  color: #333333;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+section#block-system-main-menu ul.menu.nav li a.dropdown-toggle span.caret {
+  margin-left: 90px;
+  border-top: 6px solid #428bca;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+header#navbar .navbar-header a.logo {
+  margin-top: 16px;
+}
+
+#block-block-3 {
+	margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#block-block-3 .breadcrumb{
+	margin-bottom:0px;
+}
+.page-header, #block-block-3 h1 {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-shadow: 1px 1px #fff;
+}
+
+#block-block-3 h1{
+	margin-top:0px;
+}
+.user-info-links.dropdown-menu {
+  padding: 5px 20px;
+  right: 0;
+}
+.user-info-links.dropdown-menu a {
+  display: block !important;
+}
+
+.field-name-field-profile-image .image-widget span.file,
+.field-name-field-profile-image .image-widget span.file-size{
+	display:none;
+}
+
+.panel-pane {
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0);
+}
+
+.pane-employee-by-designation-chart h2.pane-title,
+.pane-employee-by-department-chart h2.pane-title,
+.pane-new-employee-list h2.pane-title,
+.pane-dashboard-blocks h2.pane-title,
+.pane-pcp-profile2-pcp-profile2-percent-complete h3.pane-title,
+.pane-birthday-list h2.pane-title,
+.pane-today-leave h2.pane-title,
+.col-sm-9 h1.page-header,
+.pane-employee-list h2.pane-title,
+.pane-employee-list-for-employee h2.pane-title,
+#field-company-reference-values th label,
+.view-hr-configuration .add-new-form h4,
+.pane-employee-profile-detail h2.pane-title,
+.pane-dashboard-leave-request h2.pane-title{
+  margin: 0;
+  padding: 15px;
+  background-color: rgba(255,255,255,1);
+  border-bottom: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+  font-size: 16px;
+  color: #656565;
+  font-family: 'Roboto', sans-serif;
+}
+
+#field-company-reference-values th label{
+	padding: 0px;
+    border-bottom: 0;
+    background-color:  rgba(255,255,255,0);
+}
+
+#block-hrms-add-qualification-details h2.block-title,
+#block-hrms-add-dependent h2.block-title,
+#block-fieldblock-profile2-qualification-details-default-field-language-detail h2.block-title,
+#block-fieldblock-profile2-work-experience-default-field-reference  h2.block-title,
+#block-fieldblock-profile2-work-experience-default-field-experience- h2.block-title, 
+#block-hrms-add-work-experience h2.block-title,
+#block-views-dependentsview-block-1 h2.block-title,
+#block-views-language-known-block h2.block-title,
+#block-views-language-known-block_1 h2.block-title {
+  margin: 0;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+  font-size: 16px;
+  color: #656565;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.view-employee-list,
+.view-employee-contact-detail-view,
+.view-employee-profile-detail,
+.view-employee-list-for-employee,
+section.col-sm-12 .view-birthday-list,
+section.col-sm-12 .view-today-leave,
+section.col-sm-12 .view-new-employee-list,
+section.col-sm-12 .view-dashboard-leave-request,
+#block-views-language-known-block-2,
+#block-views-language-known-block-1,
+.field-name-field-company-reference,
+.view-dashboard-blocks,
+.view-holidays,
+.pcp-profile2,
+.custom-div,
+.view-employee-list-date-of-joining,
+.view-appraisal-due-date-detail,
+.view-employee-list-bank-details,
+.view-employee-list-kms,
+.view-employee-details-knowarth,
+.view .text-center,
+.view-message-notifications{
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 0 0 3px 3px;
+  padding: 15px;
+}
+
+section.col-sm-12 .pane-content .view-new-employee-list,
+section.col-sm-12 .pane-content .view-birthday-list,
+section.col-sm-12 .pane-content .view-today-leave,
+section.col-sm-12 .pane-content .view-dashboard-leave-request,
+.view-employee-contact-detail-view,
+.view-employee-list-for-employee,
+section.col-sm-12 .view-today-leave.view-display-id-page_1, 
+.view-employee-list,
+.view .text-center,
+#block-views-message-notifications-block .view-message-notifications{
+	padding:0px;
+}
+
+.panels-flexible-employee_dashboard .pane-custom .pane-content,
+.panels-flexible-hr_dashboard .pane-custom .pane-content,
+.panels-flexible-dashboard .pane-custom .pane-content{
+	padding-top: 0px;
+	text-align: right;
+}
+
+.panels-flexible-employee_dashboard .pane-pcp-profile2-pcp-profile2-percent-complete .pane-content,
+.panels-flexible-hr_dashboard .pane-pcp-profile2-pcp-profile2-percent-complete .pane-content,
+.panels-flexible-dashboard .pane-pcp-profile2-pcp-profile2-percent-complete .pane-content{
+	padding-bottom:0px;
+}
+
+.view-language-known table caption{
+  text-align: left;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #F5F5F5;
+}
+
+#block-views-language-known-block,
+.field-name-field-company-reference{
+	padding:0px;
+}
+
+.view-employee-list #edit-mail-wrapper{
+	margin-left:5px;
+	width: 22%;
+}
+
+.view-employee-list #edit-field-department-tid-wrapper,
+.view-employee-list #edit-field-designation-tid-wrapper,
+.view-employee-list #edit-field-employee-status-tid-wrapper{
+	width: 20%;
+}
+
+.view-employee-list .view-empty,
+.view-employee-list .vbo-views-form-empty{
+	margin-top:25px;
+}
+
+section.col-sm-12 .view-new-employee-list .views-table,
+section.col-sm-12 .view-birthday-list .views-table
+{
+	margin-bottom:0px;
+	padding:0px;
+}
+.view-language-known .add-new-form,
+.view-holidays .add-new-form,
+.view-hr-configuration .add-new-form{
+	border:1px solid #ddd;
+}
+
+.view-language-known .add-new-form .block-title{
+	margin-top:0px;
+}
+
+.view-language-known #hrms-language-details-form{
+	padding:10px;
+}
+
+.view-language-known .view-content{
+	margin-top:10px;
+	margin-bottom:10px;
+	border:1px solid #ddd;
+	border-top:none;
+}
+
+.view-holidays .view-content,
+.view-hr-configuration .view-display-id-block_1 .view-content{
+	margin-top:10px;
+	margin-bottom:10px;
+	border:1px solid #ddd;
+}
+
+.view-hr-configuration .view-content{  
+	margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.view-hr-configuration .view-content .views-view-grid a{
+	margin-left:5px;
+	font-size:15px;
+}
+
+#edit-actions-submit{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+#edit-submit-employee-list{
+	margin-top: 1.8em;
+}
+
+#edit-submit-employee-list-for-employee{
+	margin-top: 1.8em;
+}
+
+#auth_box {
+  width: 420px;
+  padding: 160px 0 0;
+}
+#auth_box #middle_part {
+  border-radius: 3px;
+  background: none;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 3px 1px #ccc;
+  position: relative;
+  min-height: 280px;
+}
+#auth_box #middle_part #top_part {
+  padding-top: 15px;
+  background-color: rgba(255,255,255,0.8);
+}
+#auth_box #middle_part form {
+  padding: 15px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  text-align: center;
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+}
+#auth_box #middle_part form label {
+  color: #646464;
+}
+#auth_box #middle_part form input {
+  display: inline;
+  margin-left: 15px;
+  height: inherit;
+  padding: 10px;
+}
+#auth_box #middle_part form button {
+  padding: 5px 25px;
+  height: inherit;
+  background-color: #25aae2;
+  border: none;
+  color: #fff;
+  position: absolute;
+  left: 128px;
+  font-size: 13px;
+}
+#auth_box #middle_part .password_link {
+  position: absolute;
+  right: 34px;
+  margin-top: -50px;
+}
+#auth_box #middle_part .password_link a{
+  color: #646464;
+  font-size: 13px;
+}
+#auth_box #bottom_part {
+  padding: 10px 0 0;
+}
+#auth_box .back_link {
+  padding: 0;
+}
+#auth_box .back_link h2 {
+  display: inline-block;
+  font-size: 12px;
+}
+#auth_box .back_link h2:first-child {
+  line-height: 21px;
+}
+#auth_box .back_link h2:last-child {
+  float: right;
+}
+#auth_box .back_link h2:last-child img {
+  height: 25px;
+}
+.region-footer #bottom_part .left h2,
+.region-footer #bottom_part .center h2,
+.region-footer #bottom_part .right h2{
+  display: inline-block;
+  font-size: 12px;
+}
+
+footer.footer {
+  padding: 8px 0 36px 0;
+}
+footer.footer .region-footer #bottom_part > div {
+  display: inline-block;
+  width: 33%;
+}
+footer.footer .region-footer #bottom_part > div.center {
+  text-align: center;
+}
+footer.footer .region-footer #bottom_part > div.right {
+  text-align: right;
+}
+footer.footer .region-footer #bottom_part > div.right h2 img {
+  height: 30px;
+}
+footer.footer .region-footer #bottom_part > div h2 {
+  margin: 0;
+}
+footer.footer .region-footer #bottom_part .center .title span{
+	color: #428bca;
+}
+.form-control
+{
+	width: 70%;	
+}
+.input-group
+{
+	width: 70%;	
+}
+.views-widget .form-type-textfield .input-group,
+#edit-field-department-tid,
+#edit-field-designation-tid,
+.views-exposed-form .form-control
+{
+	width: 100%;	
+}
+section.col-sm-9 .tabs--primary {
+    float: right;
+    border: medium none;
+    padding-top: 5px;
+    position: absolute;
+    right: 19px;
+    top: 0;
+  	
+}
+
+section.col-sm-9 .nav-tabs li a
+{
+	border-radius: 4px 4px 4px 4px;
+	background-color: #0EA0DE;
+	color: #FFF;
+	width: 95px;
+	height: 40px;
+	text-align: center;
+}
+section.col-sm-9 .nav-tabs li a:hover, .nav-tabs li a:focus{
+	background-color: #1A7FDA;
+}
+
+section.col-sm-9 ul.action-links-field-collection-add li a
+{
+	border-radius: 4px 4px 4px 4px;
+	background-color: #0EA0DE;
+	color: #FFF;
+	text-align: center;
+	padding: 15px;
+}
+
+#hrms-add-profile-form div.add a
+{
+border-radius: 4px 4px 4px 4px;
+  background-color: #0EA0DE;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 15px;
+  float: right;
+  border: medium none;
+  position: relative;
+  right: 5px;
+  top: -60px;
+  width: 95px;
+  height: 40px;
+}
+#hrms-add-profile-form div.add a:hover,
+#hrms-add-profile-form div.add a:focus{
+	background-color: #1A7FDA;
+	text-decoration: none;
+}
+section.col-sm-9 ul.action-links-field-collection-add{
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 0px 0px 3px 3px;
+	margin: 0px;
+	padding: 35px;
+}
+
+.page-field-collection-field-language-detail-edit section.col-sm-9 .tabs--primary li,
+.page-field-collection-field-reference-edit section.col-sm-9 .tabs--primary li,
+.page-field-collection-field-experience--edit section.col-sm-9 .tabs--primary li
+{
+ display: none;
+}
+
+#profile2-edit-personal-details-form,
+#profile2-edit-employee-details-form,
+#profile2-edit-contact-details-form,
+#profile2-edit-emergency-details-form,
+#profile2-edit-immigration-details-form,
+#profile2-edit-bank-details-form,
+#profile2-edit-report-to-form,
+#profile2-edit-documents-attachmnet-list-form,
+#field-collection-item-form,
+#edit-field-expense-field-form  tr.draggable,
+.add-new-form .node-language_known-form,
+.add-new-form .node-holidays-form
+{
+	background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 15px;	
+}
+
+.add-new-form .node-language_known-form,
+.add-new-form .node-holidays-form,
+.add-new-form #hrms-taxonomy-add-term-form{
+	padding: 10px;
+}
+
+.profile2-personal-details,
+.profile2-employee-details,
+.profile2-contact-details,
+.profile2-emergency-details,
+.profile2-immigration-details,
+.profile2-bank-details,
+.profile2-report-to,
+.view-documents-attachment-list,
+.view-work-experience-view,
+.view-dependentsview,
+.view-id-qualification_details_view,
+#leave-node-form,
+.view-desk-allocation,
+#work-from-home-node-form,
+#work-from-client-location-node-form,
+#hrms-add-new-profile-form,
+.view-expense-request.view-display-id-page_4,
+.view-set-work-time
+{
+	background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 15px;	
+}
+
+.view-leave.view-display-id-page_1,
+.view-leave.view-display-id-page_2,
+.view-leave-history,
+.view-leave-balance-detail,
+.view-expense-request,
+.view-leave .views-table,
+.view-work-from-home .views-table,
+.view-work-from-client-location .views-table,
+.view-work-from-home.view-display-id-page_1,
+.view-work-from-client-location.view-display-id-page_1,
+.view-work-from-home.view-display-id-page_2,
+.view-work-from-client-location.view-display-id-page_2,
+.view-work-from-home.view-display-id-page_3,
+.view-work-from-client-location.view-display-id-page_3,
+.view-work-from-home.view-display-id-page_4,
+.view-work-from-client-location.view-display-id-page_4{
+	background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 3px 3px;
+}
+
+.view-leave.view-display-id-page_1 .view-filters,
+.view-leave.view-display-id-page_2 .view-filters,
+.view-leave-history .view-filters,
+.view-leave-balance-detail .view-filters,
+.view-work-from-home.view-display-id-page_1 .view-filters,
+.view-work-from-client-location.view-display-id-page_1 .view-filters,
+.view-work-from-home.view-display-id-page_2 .view-filters,
+.view-work-from-client-location.view-display-id-page_2 .view-filters,
+.view-work-from-home.view-display-id-page_3 .view-filters,
+.view-work-from-client-location.view-display-id-page_3 .view-filters,
+.view-work-from-home.view-display-id-page_4 .view-filters,
+.view-work-from-client-location.view-display-id-page_4 .view-filters{
+	padding:15px;
+	padding-bottom:0px;
+}
+
+.view-filters{
+	padding:15px;
+	padding-bottom:0px;
+}
+
+.view-empty,
+form#views-form-employee-list-page p{
+	padding:15px;
+}
+
+.views-table thead>tr>th,
+.views-table tbody>tr>td,
+.views-table tfoot>tr>th{
+	padding-left:15px;
+}
+
+.view-work-experience-view .view-display-id-block_2,
+.view-documents-attachment-list .view-display-id-block_1{
+	background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px;	
+}
+
+.view-documents-attachment-list .view-display-id-block_1{
+	background-color: transparent;
+	padding-left: 10px;
+}
+
+.view-documents-attachment-list .views-field{
+	margin-top:10px;
+	margin-bottom:10px;
+} 
+
+.view-work-experience-view .view-display-id-block_2 .views-field-php{
+	padding:10px;
+	font-weight:bold;
+}
+
+#hrms-add-profile-form,
+.view-hr-configuration.view-display-id-page,
+.col-sm-12 .view-employee-wise-leave-detail-entity-view,
+section#block-fieldblock-profile2-work-experience-default-field-experience- .field-name-field-experience-,
+section#block-fieldblock-profile2-qualification-details-default-field-language-detail .field-name-field-language-detail,
+section#block-fieldblock-profile2-work-experience-default-field-reference .field-name-field-reference
+{
+	background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 15px;
+}
+
+.view-dashboard-leave-request table.views-view-grid{
+	width:100%;
+}	
+
+.view-dashboard-leave-request table.views-view-grid td{
+	padding: 10px;
+	border-right:1px solid #ddd;
+}
+.view-dashboard-leave-request table.views-view-grid td.col-last{
+	border-right:none;
+}
+
+.view-dashboard-leave-request table.views-view-grid tr{
+  border-bottom: 1px solid #ccc;
+}
+
+.view-dashboard-leave-request table.views-view-grid tr.row-last{
+	border-bottom:none;
+}
+
+.view-dashboard-leave-request table.views-view-grid .views-field-php{
+	float: right;
+  padding-right: 10px;
+}
+.form-managed-file .image-preview img,
+.field-name-field-profile-image .field-items img
+{
+	  height: 88px;
+  	width: 88px;
+  	border: 4px solid #fff;
+  	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  	border-radius: 50%;
+}
+
+#edit-profile-personal-details-field-profile-image-und-0-remove-button
+{
+	color: #FFF;
+	background-color: #D9534F;
+	display: block;
+	border-color: #D43F3A;
+	margin: 8px;	
+}
+
+.field-label,
+.field-collection-view .field-label
+{
+	    width: 150px;	
+}
+
+.profile2-documents-attachmnet-list .field-label{
+	width:100%;
+}
+
+.field-items {
+    padding-bottom: 20px;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.profile2-immigration-details .group-footer .field-name-field-visa-detail .field-items {
+    padding-bottom: 0px;
+    width:100%;
+}
+
+.field-name-field-visa-detail .table>thead>tr>th,
+.field-name-field-visa-detail .table>tbody>tr>td{
+	padding:5px 0px;
+}
+
+#profile2-edit-immigration-details-form .field-name-field-visa-detail .table>thead>tr>th,
+#profile2-edit-immigration-details-form .field-name-field-visa-detail .table>tbody>tr>td{
+	padding:8px;
+}
+
+.date-no-float .form-control,
+.form-managed-file .form-file
+{
+  width: 100%;
+}
+
+.field-type-datetime .panel-body,
+.view-employee-list .panel-body{
+	padding:0px;
+}
+
+.field-type-datetime .panel-body .container-inline-date > .form-item{
+	margin-bottom:0px;
+}
+
+.field-type-datetime .panel-body .container-inline-date .date-padding{
+	padding:0px;
+	padding-top:5px;
+}
+
+#editableviews-entity-form-holidays .field-type-datetime .panel-body .container-inline-date .date-padding,
+#holidays-node-form .field-type-datetime .panel-body .container-inline-date .date-padding{
+	padding-top:0px;
+}
+
+.field-name-field-year-of-passing .panel-body .container-inline-date .date-padding,
+.field-name-field-from .panel-body .container-inline-date .date-padding,
+.field-name-field-to .panel-body .container-inline-date .date-padding{
+	padding-top:0px;
+}
+.field-name-field-year-of-passing .panel-body .date-month{
+	margin-right:15px;
+}
+
+.field-type-datetime .panel,
+.view-employee-list .panel {
+  margin-bottom: 0px;
+  background-color: transparent;
+  border: none;
+  border-style: none;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 0 rgba(0,0,0,0); 
+  box-shadow: 0 0 0 rgba(0,0,0,0); 
+}
+.view-employee-list .panel,
+.view-employee-contact-detail-view .views-exposed-widget{
+	margin-bottom: 15px;	
+}
+
+.field-type-datetime .panel .panel-heading,
+.view-employee-list .panel .panel-heading {
+  background-color: transparent;
+  border-color: transparent;
+  padding:0px;
+  font-weight: bold;
+}
+
+.field-type-datetime .panel .panel-heading .panel-title,
+.view-employee-list .panel .panel-heading .panel-title {
+  font-size: 14px;
+}
+
+.profile2-employee-details .group-left .field-label{
+	width: 190px;
+}
+#views-exposed-form-employee-list-page .views-exposed-widgets #edit-uid-wrapper{
+	float:left;
+	width:25%;
+}
+
+.views-exposed-widgets #edit-uid-wrapper{
+	float:left;
+	width:50%;
+}
+
+.views-exposed-widgets #edit-field-date-of-birthbay-month,
+.postal-code{
+	width:100%;
+}
+
+.view-birthday-cards .views-view-grid td{
+	border: 1px solid #ddd;
+}
+.view-birthday-cards .field-content img{
+	margin:20px;
+}
+
+.pane-new-employee-list .view-new-employee-list table.views-table thead{
+	display:none;
+}
+
+.pane-new-employee-list .view-new-employee-list .table>tbody>tr>td{
+	padding:29px 20px 30px 20px;
+}
+
+.pane-new-employee-list .view-new-employee-list .views-row-first td{
+	border-top:none;
+}
+
+section.col-sm-12 .view-birthday-list .views-field {
+	vertical-align:middle;
+}
+section.col-sm-12 .view-birthday-list td.views-field-field-profile-image{
+	text-align:center;
+}
+
+section.col-sm-12 .pane-new-employee-list .more-link,
+section.col-sm-12 .pane-dashboard-leave-request .more-link,
+section.col-sm-12 .pane-birthday-list .more-link,
+section.col-sm-12 .pane-today-leave .more-link{
+ text-align: right;
+ text-transform: capitalize;
+ float: right;
+ text-decoration: none;
+ font-size: 14px;
+ background: #428bca;
+ padding: 0px 10px;
+ border-radius: 2px;
+}
+
+#select-role-landing #edit-submit,
+#edit-role-selected{
+	margin-top:15px;
+}
+
+.edit-button,
+.delete-button{
+	float:right;
+	width:25px;	
+}
+
+#edit-operation{
+	width:100%;
+}
+
+.view-language-known  td.views-field-field-language-name-editable{
+	width:50%;
+}
+
+.views-table .views-row-edit-edit .form-group{
+	margin-bottom:0px;
+}
+.profile2-no-data{
+	display:none;
+}
+
+#edit-profile-work-experience-field-company-reference .tabledrag-toggle-weight-wrapper,
+#edit-profile-work-experience-field-company-reference .sticky-header,
+#edit-profile-work-experience-field-company-reference .field-multiple-drag,
+#edit-profile-immigration-details-field-visa-detail .tabledrag-toggle-weight-wrapper,
+#edit-profile-immigration-details-field-visa-detail .field-multiple-drag,
+#edit-profile-documents-attachmnet-list-field-copies-of-all-certificates .tabledrag-toggle-weight-wrapper,
+#edit-profile-documents-attachmnet-list-field-copies-of-all-certificates .tabledrag-handle{
+	display:none;
+}
+
+#field-company-reference-values thead th{
+	padding-left:5px;
+}
+
+.view-work-experience-view .views-field-field-company-reference .table>thead>tr>th, 
+.view-work-experience-view .views-field-field-company-reference .table>tbody>tr>td,
+.view-id-documents_attachment_list .views-field-view-1 .table>thead>tr>th, 
+.view-id-documents_attachment_list .views-field-view-1 .table>tbody>tr>td{
+	padding:0px;
+}
+
+.views-field-field-company-reference .field-items{
+		padding-bottom:0px;
+}
+.add-new-form .node-language_known-form .tabbable,
+.add-new-form .node-holidays-form .tabbable,
+.add-new-form-1 .node-language_known-form .tabbable,
+.node-desk_allocation-form .tabbable,
+.add-new-form-2 .node-work_from_home-form .tabbable,
+.add-new-form-2 .node-work_from_client_location-form .tabbable,
+.add-new-form-2 .node-leave-form .tabbable,
+.add-new-form-2 .node-set_work_time-form .tabbable,
+#editableviews-entity-form-holidays .views-row-edit-static,
+#editableviews-entity-form-desk-allocation .views-row-edit-static,
+.views-field-field-desk-allocation .cshs-term-group__terms,
+#editableviews-entity-form-holidays label,
+#editableviews-entity-form-hr-configuration label,
+#editableviews-entity-form-holidays .panel-heading,
+#edit-field-holiday .panel-heading,
+.node-reimbursement-form .tabbable{
+	display:none;
+}
+
+.node-apply_leave-form .tabbable,
+button.form-save-default-button{
+	display:none;
+}
+
+.add-new-form-2 h1.page-header{
+  margin: 0;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+  font-size: 16px;
+  color: #656565;
+  font-family: 'Roboto', sans-serif;
+}
+
+.view-leave.view-display-id-page .view-empty,
+.view-work-from-home.view-display-id-page .view-empty,
+.view-work-from-client-location.view-display-id-page .view-empty{
+	margin-top:0px;
+	padding:0px;
+}
+
+.pane-views .view-new-employee-list .view-empty,
+.pane-views .view-birthday-list .view-empty,
+.pane-views .view-dashboard-leave-request .view-empty{
+	padding:15px;
+	margin-top:0px;
+}
+
+.add-new-form-1{
+	border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom:30px;
+}
+.add-new-form-2 .add-new-form-button .btn-primary{
+	 margin-top:15px;
+}
+
+.view-language-known .view-content  .table>thead>tr>th{
+	border-top: 1px solid #ccc;
+}
+
+.table{
+	margin-bottom:0px;
+}
+
+.form-item-field-from-session-und label[for="edit-field-from-session-und"],
+.form-item-field-to-session-und label[for="edit-field-to-session-und"], 
+.form-item-field-from-session-ampm-und label[for="edit-field-from-session-ampm-und"],
+.form-item-field-to-session-ampm-und label[for="edit-field-to-session-ampm-und"],
+.form-item-field-wfh-from-session-und label[for="edit-field-wfh-from-session-und"],
+.form-item-field-wfh-to-session-und label[for="edit-field-wfh-to-session-und"],
+.form-item-field-wfh-from-session-ampm-und label[for="edit-field-wfh-from-session-ampm-und"],
+.form-item-field-wfh-to-session-ampm-und label[for="edit-field-wfh-to-session-ampm-und"],
+.field-name-field-desk-allocation label[for="edit-field-desk-allocation-und-0-tid"], 
+td.views-field .field-name-field-language-name label,
+.field-name-field-employee-name .form-type-select label
+{
+	display:none;
+}
+
+.form-item-field-from-session-und .edit-field-from-session-und
+{
+	display:inline-block;
+}
+
+td.views-field-field-holiday-editable
+{
+	width:15%;
+}
+
+td.views-field-metadata-property-editable-1{
+	width:25%;
+}
+
+.view-hr-configuration td.views-field-metadata-property-editable-1{
+	width:7%;
+}
+
+.table>tbody>tr td.views-field-field-holiday,
+.view-hr-configuration .table>tbody>tr td.views-field-nothing,
+.view-hr-configuration .table>tbody>tr td.views-field-php,
+.view-language-known .table>tbody>tr>td{
+	  vertical-align: middle;
+}
+
+div.group-footer button.form-save-default-button{
+	display:none;
+}
+
+.view-hr-configuration table.views-view-grid{
+	width:100%;
+} 
+
+.view-hr-configuration table.views-view-grid td{
+	padding:10px;
+	padding-left:25px;
+} 
+
+.view .progress-disabled,
+button.ajax-processed {
+  float: left;
+}
+
+.form-file {
+	padding:0;
+}
+div.error, table tr.error{
+	background-color: transparent;
+}
+
+#edit-actionviews-bulk-operations-user-cancel-action{
+	 background:none!important;
+     border:none; 
+     padding:0!important;
+     color:#25aae2;
+     margin-left:15px;
+}
+
+#edit-actionviews-bulk-operations-user-cancel-action:hover{
+	 text-decoration:underline;
+	 color:#25aae2;
+}
+
+.view-employee-list .view-header{
+	padding:5px;
+}
+
+#views-form-employee-list-page fieldset{
+	margin-bottom:0;
+	margin-top:20px;
+}
+
+#edit-field-appraisal-due-date-value-value-month option:nth-child(5),
+#edit-field-appraisal-due-date-value-value-month option:nth-child(11){
+  font-weight: bold;
+}
+
+.view-qualification-details-view  .views-field-php,
+.view-work-experience-view .views-field-php,
+.view-dependentsview .views-field-php{
+	margin-top:10px;
+}
+
+.view-qualification-details-view  .views-field-php a,
+.view-work-experience-view .views-field-php a,
+.view-dependentsview .views-field-php a{
+	margin-right:10px;
+}
+
+.employee-profile-detail-block-fields .field-label,.employee-profile-detail-block-fields .form-managed-file{
+	 width: 150px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.employee-profile-detail-block-fields .views-field-php .field-label{
+		width: 225px;
+}
+
+.employee-profile-detail-block-fields .views-field-nothing,
+.employee-profile-detail-block-fields .views-field-php{
+	font-size: 16px;
+	color: #656565;
+	font-family: 'Roboto', sans-serif;
+}
+
+.employee-profile-detail-block-fields .views-field-nothing{
+	float:right;
+	margin-right:30px;
+}
+
+.view-id-user_profile_info .pcp-wrapper.pcp-profile2.pcp-all {
+    padding-top: 10px;
+    background: none;
+}
+
+.view-id-documents_attachment_list .view-content .views-label{
+	font-weight: bold;
+}
+
+#block-views-language-known-block-1 h2.block-title,
+#block-views-language-known-block-2 h2.block-title,
+#profile-immigration-details-field-visa-detail-add-more-wrapper h2.element-invisible{
+	display: none;
+}
+
+div.status{
+    border: 1px solid #ccc;
+    color: #468847;
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+div.error{
+	border: 1px solid #ccc;
+  color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EBCCD1;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+form div.error{
+	background-color: transparent;
+	border:none;
+	padding:0px;
+}
+
+.views-field .view-documents-attachment-list{
+	background-color: transparent;
+   border-radius: 0px 0px 0px 0px;
+   padding: 0px;
+}
+td.views-field-view div.views-field{
+	margin-top:0px;
+	background-color: transparent;
+}
+
+#views-aggregator-datatable{
+  width: 100%;
+}
+
+.Leave-table table.views-table tr{
+	height: 44px;
+}
+
+.Leave-table table.views-table tr:nth-child(even),
+table.views-table tr:nth-child(even){
+    background-color: rgba(255,255,255,0.5);
+}
+.Leave-table table.views-table thead tr:first-child,
+table.views-table thead tr:first-child{
+ background-color: #fff;
+}
+
+.Leave-table .table>thead>tr>th,
+.Leave-table .table>tbody>tr>td,
+.views-table.table>thead>tr>th,
+.views-table.table>thead>tr>td{
+	border-top: 1px solid #fff;
+	border-bottom-color: #fff;
+	padding:10px 15px;
+}
+
+.leave_layout_title,
+.node-reimbursement .field-name-field-project-list{
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 1px solid #fff;
+  border-radius: 3px 3px 0 0;
+  font-size: 16px;
+  color: #656565;
+  font-family: 'Roboto', sans-serif;
+  height: 50px;
+  margin-top:15px;
+}
+
+.leave_layout_title .field-items{
+	  padding: 15px;
+	  text-transform:uppercase;
+}
+
+.node-reimbursement .field,
+.node-reimbursement #edit-field-delivery-head-list,
+.view-expense-request .form-actions{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.node-reimbursement .field-name-field-project-list .field-items,
+.view-expense-request .form-actions{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.leave_layout_title .workflow-current-state{
+  float: right;
+}
+.panels-flexible-leave_layout .panels-flexible-row-leave_layout-2{
+		background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 0px 15px 0px 15px;	
+}
+.panels-flexible-leave_layout .panels-flexible-row-leave_layout-1{
+		background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 15px 15px 0px 15px;	
+}
+.panels-flexible-leave_layout .panels-flexible-row-leave_layout-3,
+.panels-flexible-leave_layout .panels-flexible-row-leave_layout-4{
+		background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    padding: 0px 15px 15px 15px;	
+}
+.panels-flexible-leave_layout .leave_layout_title {
+      margin-top: 15px;
+}
+
+.add-new-form-request .node-reimbursement .field-items{
+	display: block;
+}
+ul.jquerymenu,
+ul.jquerymenu ul{
+	    padding-left: 0px;
+	    margin-bottom:0px;
+}
+
+.jquerymenu li.leaf,
+.jquerymenu li.parent,
+.view-documents .field-content{
+    border-radius: 0;
+    background: rgba(255,255,255,0.1);  
+    margin: 0px;
+    border: 0px;  
+    font-size:15px;
+    border-bottom: 1px solid #fff;
+    padding: 16px 25px !important;
+}
+
+.jquerymenu li.active{
+	background-color: #25AAE1;	
+	border-bottom: 1px solid #fff;
+}
+
+.jquerymenu li:hover,
+.view-documents .field-content:hover{
+	background-color: #25AAE1;	
+	border-bottom: 1px solid #fff;
+}
+
+.view-documents .field-content:hover a,
+.view-documents .field-content a:hover{
+	 	color: #fff;
+	 	text-decoration: none;
+}
+
+.jquerymenu li.leaf.open{
+	background-color: #25AAE1;
+}
+.jquerymenu li.parent.open{
+	background-color : #86CDE9;
+}
+.jquerymenu  li:hover a,
+.jquerymenu li.leaf.open a,
+.jquerymenu li.parent.open a
+{
+ 	color: #fff;
+}
+
+
+ul.jquerymenu li a:hover, 
+ul.jquerymenu li a:focus{
+	  text-decoration: none;
+}
+
+.jquerymenu li.parent span.caret{
+	 margin-top: 8px;
+	 float:right;
+}
+
+ul.jquerymenu li.parent{
+	 padding: 0px !important;
+}
+
+ul.jquerymenu li.parent a{
+	 padding: 16px 25px;
+    display: block;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+ul.jquerymenu li.parent ul li{
+	padding: 0px !important;
+}
+
+ul.jquerymenu li.parent ul li:hover,
+.jquerymenu li.parent ul li.leaf.open{
+	background-color: #25AAE1;
+}
+.add-new-form-request #edit-workflow-3,
+#leave-node-form #edit-submit,
+#work-from-home-node-form #edit-submit,
+#work-from-client-location-node-form #edit-submit,
+.add-new-form-request #edit-workflow-7,
+.add-new-form-request #edit-workflow-11{
+    background-color: #1ba275;
+    color: #fff;
+    width: 108px;
+    height: 38px;
+    border-color: #026242;
+}
+.add-new-form-request .form-submit:nth-of-type(2){
+	margin-left: 150px;
+}
+
+#leave-node-form #edit-reset,
+#work-from-home-node-form #edit-reset,
+#work-from-client-location-node-form #edit-reset{
+	width: 96px;
+  height: 38px;
+  margin-left:10px;
+}
+
+.add-new-form-request #edit-workflow-4,
+.add-new-form-request #edit-workflow-8,
+.add-new-form-request #edit-workflow-12{
+    background-color: #E96060;
+    color: #fff;
+    width: 108px;
+    height: 38px;
+    border-color: #b10707;
+}
+.add-new-form-request #edit-workflow-13,
+.add-new-form-request #edit-workflow-14,
+.add-new-form-request #edit-workflow-15{
+    background-color: #b0b0b0;
+    color: #fff;
+    width: 108px;
+    height: 38px;
+    border-color: #828385;
+}
+.add-new-form-request #edit-workflow-13:hover,
+.add-new-form-request #edit-workflow-14:hover,
+.add-new-form-request #edit-workflow-15:hover{
+	background-color: #828385;
+	
+}
+.add-new-form-request #edit-workflow-3:hover,
+#leave-node-form #edit-submit:hover,
+#work-from-home-node-form #edit-submit:hover,
+#work-from-client-location-node-form #edit-submit:hover{
+    background-color: #026242;
+}
+.add-new-form-request #edit-workflow-4:hover{
+    background-color: #b10707;
+}
+
+#ui-accordion-1-header-0 .ui-accordion-content{
+	display:none;
+}
+
+.view-dashboard .node-panel h2{
+	display:none;
+}
+
+.view-dashboard .node-panel .content h2{
+ display: block;
+ padding: 10px;
+ min-height: 45px;
+ line-height: 25px;
+ margin: 0px;
+}
+
+form.node-leave-form .ds-3col-stacked >.group-middle, 
+form.node-work_from_home-form .ds-3col-stacked >.group-middle,
+form.node-work_from_client_location-form .ds-3col-stacked >.group-middle{
+	width: 60%;
+	float: left;
+}
+
+form.node-leave-form .ds-3col-stacked >.group-right, 
+form.node-work_from_home-form .ds-3col-stacked >.group-right,
+form.node-work_from_client_location-form .ds-3col-stacked >.group-right{
+	width: 40%;
+	float: left;
+}
+
+#edit-field-reporting-employee,
+#edit-field-reasion,
+#edit-field-wfh-inform-team,
+#edit-field-wfh-reason,
+#edit-field-wfc-inform-team,
+#edit-field-wfc-reason{
+	clear:left;
+}
+	
+input#edit-field-leave-from-und-0-value-datepicker-popup-0,
+input#edit-field-leave-to-und-0-value-datepicker-popup-0,
+select#edit-field-leave-type-und,
+select#edit-field-reporting-manager-und,
+select#edit-field-reporting-employee-und,
+#edit-field-reasion .resizable-textarea,
+input#edit-field-wfh-from-date-und-0-value-datepicker-popup-0,
+input#edit-field-wfh-to-date-und-0-value-datepicker-popup-0,
+select#edit-field-wfh-reporting-manager-und,
+select#edit-field-wfh-inform-team-und,
+#edit-field-wfh-reason .resizable-textarea,
+input#edit-field-wfc-from-date-und-0-value-datepicker-popup-0,
+input#edit-field-wfc-to-date-und-0-value-datepicker-popup-0,
+select#edit-field-wfc-reporting-manager-und,
+select#edit-field-wfc-inform-team-und,
+#edit-field-wfc-reason .resizable-textarea{
+	width:250px;
+}
+
+#edit-field-leave-from legend,
+#edit-field-leave-to legend,
+#edit-field-leave-type label,
+#edit-field-reporting-manager label,
+#edit-field-reporting-employee label,
+#edit-field-reasion label,
+#edit-field-wfh-from-date legend,
+#edit-field-wfh-to-date legend,
+#edit-field-wfh-reporting-manager label,
+#edit-field-wfh-inform-team label,
+#edit-field-wfh-reason label,
+#edit-field-wfc-from-date legend,
+#edit-field-wfc-to-date legend,
+#edit-field-wfc-reporting-manager label,
+#edit-field-wfc-inform-team label,
+#edit-field-wfc-reason label{
+	  float: left;
+    width: 35%;
+    text-align: right;
+    margin-top: 10px;
+    font-weight:normal;
+}
+
+select#edit-field-leave-type-und,
+select#edit-field-reporting-manager-und,
+select#edit-field-reporting-employee-und,
+#edit-field-reasion .resizable-textarea,
+select#edit-field-wfh-reporting-manager-und,
+select#edit-field-wfh-inform-team-und,
+#edit-field-wfh-reason .resizable-textarea,
+select#edit-field-wfc-reporting-manager-und,
+select#edit-field-wfc-inform-team-und,
+#edit-field-wfc-reason .resizable-textarea{
+	float:left;
+	margin-left:23px;
+	margin-bottom: 15px;
+}
+
+#edit-field-reporting-employee .chosen-container,
+#edit-field-wfh-inform-team .chosen-container,
+#edit-field-wfc-inform-team .chosen-container{
+	  margin-left: 23px;
+    padding: 0px;
+    width: 250px !important;
+    width: 100%;
+    height: auto !important;
+    height: 1%;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#edit-field-reporting-employee .chosen-container ul.chosen-choices,
+#edit-field-wfh-inform-team .chosen-container ul.chosen-choices,
+#edit-field-wfc-inform-team .chosen-container ul.chosen-choices {
+	 border-radius: 4px;
+}
+
+.chosen-container-multi .chosen-choices li.search-field{
+	    padding: 6px 12px;
+}
+
+#edit-field-leave-from fieldset .panel-body,
+#edit-field-leave-to fieldset .panel-body,
+#edit-field-wfh-from-date fieldset .panel-body,
+#edit-field-wfh-to-date fieldset .panel-body,
+#edit-field-wfc-from-date fieldset .panel-body,
+#edit-field-wfc-to-date fieldset .panel-body{
+	clear: inherit;
+	float:right;
+	width: 60%;
+}
+
+#edit-field-from-session select,
+#edit-field-to-session select,
+#edit-field-from-session-ampm-und .radio,
+#edit-field-to-session-ampm-und .radio,
+#edit-field-wfh-from-session select,
+#edit-field-wfh-to-session select,
+#edit-field-wfh-from-session-ampm-und .radio,
+#edit-field-wfh-to-session-ampm-und .radio{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+div#edit-field-from-session,
+div#edit-field-wfh-from-session{
+	float:left;
+  width: 35%;
+  margin-bottom:0px;
+}
+
+div#edit-field-to-session,
+div#edit-field-wfh-to-session{
+	clear:left;
+	float:left;
+	width: 35%;
+  margin-bottom:0px;
+}
+
+div#edit-field-from-session .form-control,
+div#edit-field-to-session .form-control,
+div#edit-field-wfh-from-session .form-control,
+div#edit-field-wfh-to-session .form-control{
+	width: 90%;
+}
+
+div#edit-field-from-session-ampm,
+div#edit-field-to-session-ampm,
+div#edit-field-wfh-from-session-ampm,
+div#edit-field-wfh-to-session-ampm
+{
+	float:left;
+	margin-top: 5px;
+	margin-bottom:0px;
+	width:65%;
+}
+
+#edit-field-from-session-ampm .form-type-radios,
+#edit-field-to-session-ampm .form-type-radios,
+#edit-field-wfh-from-session-ampm .form-type-radios,
+#edit-field-wfh-to-session-ampm .form-type-radios {
+		margin-bottom:0px;
+}
+
+#edit-field-from-session-ampm-und .radio:last-child,
+#edit-field-to-session-ampm-und .radio:last-child,
+#edit-field-wfh-from-session-ampm-und .radio:last-child,
+#edit-field-wfh-to-session-ampm-und .radio:last-child{
+	padding-left:30px;
+	margin-bottom:10px;
+}
+
+#leave-node-form #edit-actions,
+#work-from-home-node-form #edit-actions,
+#work-from-client-location-node-form #edit-actions{
+	  padding-left: 205px;
+}
+
+.add-new-form-2 h1.page-header span{
+	float: right;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.pane-employee-profile-detail .more-link{
+	float: right;
+}
+
+.form-type-date-popup input{
+  background-image: url('../image/icon-calendar-gray.png');
+  background-repeat: no-repeat;
+  background-position: 98%;
+  cursor: pointer;
+}
+#edit-profile-employee-details-field-emp-pro-leave-balance-und-0-value,
+#edit-profile-employee-details-field-emp-pro-current-leave-bal-und-0-value{
+	width: 45%;
+}
+
+.views-field-sid .state_Approved,
+div.workflow-current-state.approved .state,
+.views-field-label span.state_Approved,
+.view-today-leave span.state_Approved{
+	color:#1ba275;
+}
+
+.views-field-sid .state_In-Review,
+div.workflow-current-state.in-review .state,
+.views-field-label span.state_In-Review,
+.view-today-leave span.state_In-Review{
+	color:#25AAE1;
+}
+
+.views-field-sid .state_Rejected,
+div.workflow-current-state.rejected .state,
+.views-field-label span.state_Rejected,
+.view-today-leave span.state_Rejected{
+	color:#E96060;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit{
+    margin-top: 25px;
+}
+
+.view-leave-history .views-exposed-form .views-exposed-widget .form-submit,
+.view-leave .views-exposed-form .views-exposed-widget .form-submit,
+.view-work-from-home .views-exposed-form .views-exposed-widget .form-submit,
+.view-work-from-client-location .views-exposed-form .views-exposed-widget .form-submit,
+.view-expense-request .views-exposed-form .views-exposed-widget .form-submit{
+    margin-top: 0px;
+}
+
+.form-item-workflow-comment label{
+	position: absolute;
+}
+
+.form-item-workflow-comment .form-textarea-wrapper{
+	padding-left: 150px;
+
+}
+#edit-workflow-comment{
+	height: 90px;
+}
+
+.view-employee-wise-leave-detail-entity-view .view-content table{
+	margin:20px 0px;
+}
+
+.view-employee-wise-leave-detail-entity-view .view-content table caption{
+	text-align: left;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.view-employee-wise-leave-detail-entity-view .view-content table thead{
+	font-size: 12px;
+}
+
+.field-name-employee-detail-history .field-items{
+	display:block;
+}
+
+.view-leave .view-footer .add-new-form-2 h1.page-header p,
+h1.page-header p{
+	float:right;
+	text-transform: capitalize;
+}
+
+.pane-birthday-list .pane-content,
+.pane-employee-list .pane-content,
+.pane-new-employee-list .pane-content,
+.pane-employee-by-department-chart .pane-content,
+.pane-employee-by-designation-chart .pane-content {
+    padding: 0;
+    background:none;
+}
+
+.pane-employee-list .view-employee-list{
+ padding:0px;
+}
+
+.pane-employee-list .view-filters,
+.pane-employee-list .view-header{
+ padding:10px;
+}
+
+.panels-flexible-region-leave_layout-column_2-inside{
+	padding-right:0px !important;
+}
+
+.panels-flexible-region-leave_layout-column3-inside{
+	padding-left:0px !important;
+}
+
+.view-work-from-client-location .panels-flexible-region-leave_layout-column_1{
+	width:50% !important;
+}
+
+.feed-icon, .col-sm-12 .view-new-employee-list .view-header{
+	float:right;
+	width:25px;
+}
+
+.view-leave.view-display-id-page .view-content,
+.view-work-from-home.hide-page-title .view-content,
+.view-work-from-client-location.hide-page-title .view-content {
+	display:none;
+}
+
+.view-footer .field-name-field-from-session-ampm .field-items,
+.view-footer .field-name-field-to-session-ampm .field-items{
+	padding-bottom:0px;
+	height:35px;
+}
+
+.view-message-notification.view-display-id-block_2 .view-display-id-block_1 .field-content .notification_detail{
+  position: relative;
+  left: 26px;
+  top: 10px;
+  background: white;
+  padding: 5px 10px;
+}
+
+.view-message-notification.view-display-id-block_2 .views-field-php{
+  position: absolute;
+  top: 0px;
+}
+ 
+.view-message-notification.view-display-id-block_2 .view-display-id-block_1{
+  width: 40%;
+  padding: 15px;    
+  position: absolute;
+  right: 0px;
+  z-index: 9999;
+}
+
+#block-views-message-notification-block-2{
+ float: right;
+}
+ 
+.view-message-notification.view-display-id-block_1{
+	display:none;
+}
+
+#notification-img{
+	height: 35px;
+  width: 35px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+#my-img{
+	height: 35px;
+  width: 35px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+#block-views-message-notifications-block span.notification_count{
+	left: -15px;
+	top:-5px;
+	position: relative;
+	border-radius: 50%;
+	background-color: red;
+	padding: 5px;
+}
+
+#block-views-message-notifications-block span.notification_count{
+ left: -15px;
+ top:-5px;
+ position: relative;
+ border-radius: 50%;
+ background-color: red;
+ padding: 5px;
+}
+
+
+#block-views-message-notifications-block .table {
+    z-index: 9;
+    display: table;
+    position: relative;
+    right: 281px;
+    top: 17px;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    min-width: 350px;
+}
+
+#notification-img {
+    height: 35px;
+    width: 35px;
+    margin-top: 16px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+#block-views-message-notifications-block .field-content {
+    float: right;
+    display: inline-block;
+    right: 0px;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+    height: 68px;
+    border-left: 1px solid #ddd;
+}
+section#block-system-main-menu, section.notification-count {
+    float: right;
+    display: inline-block;
+    width: 19%;
+    position: absolute;
+    right: 300px;
+}
+
+#block-views-message-notifications-block {
+ right: 219px !important;
+ width: 30% !important;
+}
+
+#block-views-message-notifications-block span.notification_count {
+    left: 30px;
+    top: 11px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    padding: 2px 2px;
+    width: 23px;
+    text-align: center;
+    height: 23px;
+
+}
+
+#block-views-message-notifications-block table{
+	 font-size:13px;
+}
+
+#block-views-message-notifications-block span.notify-date,
+.view-message-notifications span.notify-date{
+	font-size:11px;
+}
+
+/* Account Popup design Changes Replaced Start   */
+section#block-views-user-profile-info-block .views-field-nothing-1 {
+    float: left;
+    padding-top: 6px;
+}
+
+section#block-views-user-profile-info-block {
+    min-width: 230px;
+}
+/* Account Popup design Changes Replaced Start   */
+
+#block-views-message-notifications-block .text-right {
+    display: block;
+    color: #656565;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+section#block-views-user-profile-info-block .views-field-field-profile-image{
+ margin-right:0px;
+}
+
+section#block-views-user-profile-info-block {
+    min-width: 8px;
+    padding-right: 50px;
+}
+
+section#block-views-user-profile-info-block .view.view-user-profile-info:after {
+    right: 20%;
+}
+
+#block-search-form.block-search {
+    width: 400px;
+    margin: 17px 0px;
+}
+
+.user-info-links.dropdown-menu {
+    display: block;
+    width: 250px;
+    left: -137px;
+    position: absolute;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-top: 0px;
+    border: 0 none;
+    padding: 15px;
+}
+.user-info-links.dropdown-menu .media-left p img{
+ border-radius:50px;
+}
+
+.user-info-links.dropdown-menu {
+    display: block;
+    width: 330px;
+    left: -217px;
+    position: absolute;
+    border-radius: 0px;
+    margin: 0px;
+    border: 0 none;
+    padding: 0px;
+    border: 1px solid #ededed;
+    height: 140px;
+}
+
+.media-body .media-heading {
+    font-size: 14px;
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+.media>.pull-left {
+    margin-right: 20px;
+    width: 15%;
+}
+
+.pull-left{
+	  padding-right: 9px;
+}
+
+.line{
+		line-height: 20px;
+    padding-top: 2px;
+}
+
+.media>.pull-left img {
+    border-radius: 50px;
+    width: 100%;
+    height: 60%;
+    margin-left: 0px;
+}
+
+.media {
+    padding: 10px;
+}
+
+.hrms_Email {
+    width: 100%;
+    word-wrap: break-word;
+    line-height: 6px;
+    font-size: 12px;
+    margin: 0px;
+    color: #aaaaaa;
+}
+
+.hrms_phone{
+	font-size:11px;
+}
+
+.Profile_footer-dropdown {
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    background: #ededed;
+    border-top: 1px solid #ddd;
+}
+.hrms_designation {
+    color: #428bca;
+    font-size:12px;
+    width: 100%;
+		display: block;
+}
+
+.content-search .input-group {
+    width: 78%;
+}
+.content-search .input-group-btn{
+ display:none;
+}
+.content-search .ui-autocomplete-processed.ui-autocomplete-input {
+    border-radius: 4px;
+}
+
+.user-info-links.dropdown-menu.main-search {
+    display: block;
+    width: 100%;
+    left: 0px;
+    position: relative;
+    border-radius: 0px;
+    margin: 0px;
+    border: 0 none;
+    padding: 0px;
+    height: 100%;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+ padding-top:0;
+ padding-bottom:0;
+}
+
+#page-header .region-header ul.menu.nav li.leaf a:hover{
+ background-color: transparent;
+    color: #fff;
+}
+.dropdown-menu>.active>a:focus, .nav .open>a:focus{
+ background-color: #0284b9;
+    color: #fff;
+}
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf a:hover, #page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf a:focus{
+ background-color: #25AAE2;
+ background-color: #0284b9;
+    color: #fff;
+}
+
+#page-header .region-header ul.menu.nav li.leaf .dropdown-menu li a{
+ color:#fff;
+}
+#page-header .region-header ul.menu.nav li.leaf .dropdown-menu li a:hover {
+    background: #0284b9;
+}
+#page-header .region-header ul.menu.nav li .dropdown-menu li a{
+ background-color: #25AAE2;
+ color:#fff;
+ padding-left:25px;
+ border-bottom:1px solid #0284b9;
+}
+#page-header .region-header ul.menu.nav li .dropdown-menu li:last-child a{
+ border-bottom:0;
+}
+#page-header .region-header ul.menu.nav li.dropdown-submenu .dropdown-menu li a{
+ border-bottom:1px solid #0284b9;
+}
+#page-header .region-header ul.menu.nav li.dropdown-submenu .dropdown-menu li:last-child a {
+ border-bottom:0;
+}
+
+#page-header .region-header ul.menu.nav>li.leaf>a:hover, #page-header .region-header ul.menu.nav>li.leaf>a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+#page-header .region-header ul.menu.nav>li.dropdown.open>a{
+ background-color: #25AAE2;
+    color: #fff;
+} 
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: -1px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+#page-header .region-header ul.menu.nav .dropdown-submenu .dropdown-menu>li.leaf, #page-header .region-header ul.menu.nav>li .dropdown-menu>li.leaf{
+ display:block;
+ float:none;
+}
+
+ul[data-sa-theme="basic-green"] .ui-autocomplete-fields {
+    padding: 0px;
+    overflow: hidden;
+    border:1px solid #ddd;
+}
+.user-info-links.dropdown-menu.main-search:hover,
+.user-info-links.dropdown-menu.main-search:focus {
+    background: #f8f8f8;
+    cursor:pointer;
+}
+
+ul[data-sa-theme="basic-green"].ui-menu{
+ width:100% !important;
+ min-width:100%;
+}
+
+section.col-sm-12 .view{
+ min-height:241px;
+}
+.view-today-leave .views-field-nothing {
+    margin: 8px;
+}
+
+.dropdown-menu.main-search .media>.pull-left {
+    margin-right: 5px;
+    width: 24%;
+}
+.content-search ul[data-sa-theme="basic-green"].ui-menu.ui-corner-all{
+ border:0 none;
+}
+.content-search ul[data-sa-theme="basic-green"] .ui-menu-item-first {
+    border-top: 0 none;
+}
+.content-search ul[data-sa-theme="basic-green"] .ui-autocomplete-fields:hover,
+.content-search ul[data-sa-theme="basic-green"] .ui-autocomplete-fields:focus{
+ border:0 none;
+}
+.content-search ul[data-sa-theme="basic-green"].ui-menu .ui-menu-item a:hover,
+.content-search ul[data-sa-theme="basic-green"].ui-menu .ui-menu-item a:focus{
+ border:1px solid #ddd;
+}
+.demo{width: 70%;
+    margin: auto;}
+
+.demo .ds-2col-stacked > .group-left {
+    float: left;
+    width: 55%;
+}
+.demo .ds-2col-stacked > .group-right {
+    float: right;
+    width: 45%;
+}
+
+.add-new-form-2 form.node-leave-form div .ds-2col-stacked{
+    width: 70%;
+    margin: auto;
+}
+
+.add-new-form-2 .ds-2col-stacked > .group-left {
+    float: left;
+    width: 55%;
+}
+.add-new-form-2 .ds-2col-stacked > .group-right {
+    float: right;
+    width: 45%;
+}
+#leave-node-form #edit-actions{
+    margin-left: -170px;
+    text-align: center;
+    padding-left:0px;
+}
+
+/*** HRMS THEMES CHANGES : 10/03/16 ***/
+
+.hrms-navbarmain{
+    background: #f1f1f1;
+    margin-bottom: 20px;
+    z-index: 9999;
+}
+
+.hrms-mainContentData {
+    top: 140px;
+    position: relative;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+}
+   
+.more-link a {
+    color: #fff;
+}
+
+.page-header {
+   border-bottom: 0 none !important;
+}
+
+.panels-flexible-employee_dashboard .panels-flexible-region {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.panels-flexible-employee_dashboard .panels-flexible-region-inside-last {
+    padding-right: 0;
+    margin-top: -2px;
+}
+
+.panels-flexible-employee_dashboard .panels-flexible-row {
+    padding: 0 0 0px 0;
+    margin: 0;
+}
+
+footer.footer {
+    border-top: 0 none;
+    margin-top:5px;
+    padding: 8px 0 15px 0;
+}
+
+#page-header .region-header ul.menu.nav {
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+
+.hrms-navbarmain {
+    background: #f1f1f1;
+    margin-bottom: 20px;
+    z-index: 9999;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.page-header {
+    padding-bottom: 0px;
+}
+.panels-flexible-row-employee_dashboard-1-inside {
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf.active, #page-header .region-header ul.menu.nav li.leaf.active-trail {
+    background-color: #25AAE2;
+    color: #fff;
+}
+.hrms-navbarmain {
+    background: #d2e8f1;
+    margin-bottom: 20px;
+    z-index: 9999;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#page-header .region-header ul.menu.nav ul.dropdown-menu li.leaf.active, #page-header .region-header ul.menu.nav li.leaf.active-trail, #page-header .region-header ul.menu.nav>li.leaf.active-trail:hover {
+    background-color: #25AAE2;
+    color: #fff;
+    background: url(../image/menu-selected-arrow.png) #25AAE2;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.view-dashboard-leave-request table.views-view-grid td {
+    padding: 10px;
+    border-right: 0 none;
+}
+.view-dashboard-leave-request table.views-view-grid tr ,
+.view-birthday-list .views-view-grid tr,
+.view-today-leave .views-view-grid tr{
+    border-bottom: 1px solid #fff;
+}
+
+.breadcrumb {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+rect{
+    fill: rgba(255,255,255,0.5) !important;
+}
+
+.content-search ul[data-sa-theme="basic-green"].ui-menu.ui-corner-all{
+ display: block !important;
+}
+
+#block-views-message-notifications-block .table,
+.user-info-links.dropdown-menu{
+ display:none;
+}
+
+
+#edit-field-set-time-und-0-value .date-year,
+#edit-field-set-time-und-0-value .date-spacer{
+	display:none;
+}
+
+#edit-field-time-duration .container-inline-date,
+#edit-field-expense-duration .container-inline-date{
+	clear: initial;
+	float: left;
+	width: 215px;
+}
+
+#edit-field-time-duration .form-item-field-time-duration-und-0-value{
+		width: 215px;
+}
+
+#edit-field-time-duration .form-item-field-time-duration-und-0-value2{
+		width: 250px;
+}
+
+.form-item-field-time-duration-und-0-value2 label{
+	float: left;
+	margin-right:10px;
+	margin-top: 10px;
+}
+
+#edit-field-worktime-reporting-manager-und{
+	width:300px;
+}
+
+#field-worktime-comment-add-more-wrapper{
+	width:450px;
+}
+.field-multiple-drag, .field-type-field-collection .tabledrag-toggle-weight-wrapper {
+	display:none;
+}
+
+#edit-field-expense-field-form table td{
+	background-color:#fff;
+}
+
+.dropdown-menu{
+ margin:0px;
+ border:0 none;
+ box-shadow:none;
+}
+
+.legand {   
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    margin-bottom: 10px;
+}
+
+.legend {   
+    float: left;
+    width: 16px;
+    height: 12px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+}
+
+.month_nextprev{
+    height: 70px; 
+    width: 100%;
+    background-color: #f3f8f8;
+    border-radius: 5px 5px 0 0;
+
+}
+
+/*......Report Dropdown Start........*/
+ .dropbtn {
+    background-color: #25AAE2;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+ } 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #25AAE2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #0284b9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button:hover .dropbtn {
+    background-color: #25AAE2;
+}
+.btn:hover {
+    background-color:#0284b9;
+    color:#FFF7F6;
+}
+/*......Report Dropdown End........*/
